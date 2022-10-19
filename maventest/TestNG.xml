@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng.org/testng-1.0.dtd">
+<suite name="maventest">
+
+    <test name="Admin Test">
+    <parameter name="browser" value="chrome"/>
+        <classes>
+             <class name="com.testCases.CreateAppTestcase"/>
+        </classes>
+    </test>
+</suite>
