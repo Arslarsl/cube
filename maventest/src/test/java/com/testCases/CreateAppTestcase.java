@@ -16,7 +16,7 @@ public void CreateApp() throws InterruptedException
     driver.get(baseURL);  
     //Assert.assertEquals(capp.applytext().getText(), "Apply in 1 Minute");
 
-    if (driver.getTitle().equals("Apply Now – Cubefunders"))
+    if (driver.getTitle().equals("Apply Now – Cubefunder"))
     {
         Assert.assertTrue(true);  
     }
